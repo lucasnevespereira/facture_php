@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    height: 100%;
+    padding: 50px;
+}
+.facture {
+    background: #f5f6fa;
+    width: 21cm;
+    height: 29.7cm;
+    margin: 0 auto;
+    border: solid 1px black;
+}
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    margin-top: 10px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+table{
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+    background-color: #fff;
+}
+th,td{
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+th{
+    margin-top: 10px;
+    background-color: #7f8fa6;
+    color: white;
+}
+.header {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.button form {
+    position: absolute;
+    top: 10%;
+    right: 25%;
+}
+
+.print {
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 10%;
+    background: lightgrey;
+}
+@media print {
+    .print {
+        display: none;
+    }
+}
+
+/* TABLEAUUU */ 
+.date{
+    width: 200px;
+    height: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: right;
+}
+.total {
+    width: 150px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: auto;
+}
+.ht {
+    width: 100%;
+    background-color: white;
+    height: auto;
+    margin-top: 3px;
+    text-align: center;
+    border: 2px solid #000000;
+}
+.ht p {
+    font-weight: 300;
+}
+.tva {
+    width: 100%;
+    background-color: white;
+    height: auto;
+    margin-top: 3px;
+    text-align: center;
+    border: 2px solid #000000;
+}
+
+.tva p {
+    font-weight: 300;
+}
+
+.ttc {
+    width: 100%;
+    background-color: white;
+    height: auto;
+    margin-top: 3px;
+    text-align: center;
+    border: 2px solid #000000;
+}
+
+.ttc p {
+    font-weight: 600;
+}
+
+/* HEADER */ 
+.company {
+    display: flex;
+    justify-content: center;
+    border: 2px solid #7f8fa6;;
+    width: 350px;
+    padding: 10px;
+    border-radius: 6%;
+    align-items: center;
+    background: #7f8fa6;
+
+}
+.company img {
+    border: 1px solid grey;
+    border-radius: 20%;
+    width: 100px;
+    height: 100px;
+}
+
+.adress {
+    width: 300px;
+    height: 150px;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 16px;
+}
+.adress h5 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+/* CONTACT */
+
+
+.contact {
+    margin-top: 10px;
+    margin-bottom: 40px;    
+    margin-left: 60%;
+    width: 35%;
+    padding: 10px;
+    border: 2px solid #7f8fa6;;
+    border-radius: 2%;
+}
+.contact p {
+    text-align: left;
+}
+.footer {
+    text-align: center;
+    font-size: 12px;
+    width: 600px;
+}
